@@ -13,13 +13,18 @@
         display: flex;
         justify-content: space-between;
     }
-    &_icon {
+    &__icon {
         width: 239px;
     }
     &__img {
         img {
             display: block;
             margin: 0 auto;
+        }
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
         }
     }
     &__subtitle {
